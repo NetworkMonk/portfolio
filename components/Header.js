@@ -26,9 +26,10 @@ export default function Header() {
                 <span className="sr-only">Workflow</span>
                 <Image
                   src="/img/40229991.png"
-                  width={40}
-                  height={40}
+                  width={80}
+                  height={80}
                   alt='James Plant'
+                  className="w-4 h-4"
                 />
               </a>
             </div>
@@ -127,7 +128,7 @@ export default function Header() {
                 <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
                   <h1 className="text-left text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
                     <span className="block text-white fira-mono">&gt; James Plant</span>
-                    <span className="block text-violet-200 fira-mono text-2xl mt-5">Full Stack Developer based in Essex, UK</span>
+                    <span className="block text-gray-200 fira-mono text-2xl mt-5">Full Stack Developer based in Essex, UK</span>
                   </h1>
                   <p className="mt-6 mx-auto text-left text-xl text-gray-200">
                     A developer who thinks about strange things, like how to measure and improve efficiency in the work day,
