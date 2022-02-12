@@ -24,13 +24,14 @@ export default function Header() {
             <div className="flex justify-start lg:w-0 lg:flex-1">
               <a href="#">
                 <span className="sr-only">Workflow</span>
-                <Image
-                  src="/img/40229991.png"
-                  width={80}
-                  height={80}
-                  alt='James Plant'
-                  className="w-4 h-4"
-                />
+                <div className="w-10 h-10">
+                  <Image
+                    src="/img/40229991.png"
+                    width={80}
+                    height={80}
+                    alt='James Plant'
+                  />
+                </div>
               </a>
             </div>
             <div className="-mr-2 -my-2 md:hidden">
