@@ -5,7 +5,6 @@ import {
   MenuIcon,
   XIcon,
 } from '@heroicons/react/outline'
-import { CameraIcon } from '@heroicons/react/solid'
 import Image from 'next/image'
 
 
@@ -113,32 +112,24 @@ export default function Header() {
           <div className="relative mb-16">
             <div className="absolute inset-x-0 bottom-0 h-1/2" />
             <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
-              <div className="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
+              <div className="relative shadow-xl sm:overflow-hidden">
                 <div className="absolute inset-0">
                   <div className="relative w-full h-full">
-                    <Image
-                      src="/img/fotis-fotopoulos-SyvsTmuuZyM-unsplash.jpg"
-                      alt="Developer Setup"
-                      layout='fill'
-                      className="h-full w-full object-cover"
-                      priority
-                    />
                   </div>
                   <div className="absolute inset-0 bg-gray-600 mix-blend-multiply" />
                 </div>
                 <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
                   <h1 className="text-left text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
                     <span className="block text-white fira-mono">&gt; James Plant</span>
-                    <span className="block text-gray-200 fira-mono text-2xl mt-5">Full Stack Developer based in Essex, UK</span>
+                    <span className="block text-gray-200 fira-mono text-2xl mt-5">Full Stack Web Developer based in Essex, UK</span>
                   </h1>
-                  <p className="mt-6 mx-auto text-left text-xl text-gray-200">
-                    A developer who thinks about strange things, like how to measure and improve efficiency in the work day,
-                    how can I be more productive with my time? And how can we change the way we think about technology?
+                  <p className="mt-12 mx-auto text-left text-lg text-gray-200">
+                    I build things for the web using a variety of technologies. I&apos;m very excited about how we
+                    can use technology in our lives in the future.
                   </p>
-                  <p className="mt-6 mx-auto text-left text-sm text-gray-100 opacity-75">
-                    <CameraIcon className="w-4 h-4 inline mb-1" /> Photo by <a href="https://unsplash.com/@ffstop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noreferrer">
-                      Fotis Fotopoulos
-                    </a> on <a href="https://unsplash.com/s/photos/developer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                  <p className="mt-6 mx-auto text-left text-lg text-gray-200">
+                    I&apos;m currently working for <a className="">White Stores</a>, or the 036 group. Responsible for building and managing their internal development team
+                    to allow the company to innovate and grow as fast and effeciently as possible.
                   </p>
                 </div>
               </div>

@@ -15,7 +15,6 @@
   }
   ```
 */
-import { CameraIcon } from '@heroicons/react/solid'
 import Skill from './Skill'
 
 export default function Skills() {
@@ -37,7 +36,7 @@ export default function Skills() {
                 How I guage my skill set and confidence with each language and technology.
               </p>
             </div>
-            <div className="mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
+            <div className="mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1 max-w-prose">
               <p className="mb-3">
                 Just because something isn&apos;t listed here, doesn&apos;t mean I&apos;m not interested in it, I&apos;m
                 always keen to learn something new.
@@ -63,9 +62,6 @@ export default function Skills() {
               <Skill title="Unity" percent="50" />
               <Skill title="C#" percent="45" />
               <Skill title="C++" percent="40" />
-
-
-
             </div>
           </div>
         </div>

@@ -15,7 +15,6 @@
   }
   ```
 */
-import { CameraIcon } from '@heroicons/react/solid'
 import Image from 'next/image'
 
 export default function MyStory() {
@@ -74,7 +73,7 @@ export default function MyStory() {
                 A little about me and how I started my journey in the world of development.
               </p>
             </div>
-            <div className="mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
+            <div className="mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1 max-w-prose">
               <p className="mb-3">
                 Tapes! You remember those? Back in the early 90s my room was covered in the things. I had an Amstrad 64,
                 a hand me down from my father, it had a tape drive and a monochrome green screen.
@@ -95,9 +94,9 @@ export default function MyStory() {
                 games using C++ and DirectX 7. This was the time I discovered the joys of object oriented programming.
               </p>
               <p className="mb-3">
-                My career started in IT support, a shy anxious young man who struggled to speak to strangers, ansering phones and
+                My career started in IT support, a shy anxious young man who struggled to speak to strangers, answering phones and
                 visiting sites to resolve IT issues. It was a difficult, but concious descision to improve my soft skills, how I
-                react and compose myself around people. I did make it my mission to make a career out of development and thankfully I have succeeded.
+                react and compose myself around people. I did make it my mission to make a career out of development, which thankfully I succeeded in.
               </p>
               <p className="mb-5">
                 My development career started around 7 years ago, since then I&apos;ve developed large, and small, web applications using a large

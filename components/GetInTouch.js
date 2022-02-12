@@ -31,14 +31,14 @@ export default function GetInTouch() {
             </h2>
           </div>
         </div>
-        <div className="mt-8 mb-8">
+        <div className="mx-auto text-base max-w-prose lg:max-w-none mt-8 mb-8">
           <div className="text-base">
             <p className="text-lg text-gray-500">
               Feel free to get in touch with me to discuss anything at all!
             </p>
           </div>
         </div>
-        <div className="mt-8">
+        <div className="mt-8 mx-auto text-base max-w-prose lg:max-w-none">
           <Mail />
           <LinkedIn />
           <GitHub />
