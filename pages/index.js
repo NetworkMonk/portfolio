@@ -1,6 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Background from '../components/Background'
+import GetInTouch from '../components/GetInTouch'
 import Header from '../components/Header'
+import MyStory from '../components/MyStory'
+import Skills from '../components/Skills'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -12,9 +17,12 @@ export default function Home() {
       </Head>
 
       <main>
-
+        <Background />
         <Header />
-
+        <MyStory />
+        <Skills />
+        <GetInTouch />
+        <Footer />
       </main>
 
     </div>
