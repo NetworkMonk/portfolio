@@ -16,6 +16,7 @@
   ```
 */
 import { CameraIcon } from '@heroicons/react/solid'
+import Image from 'next/image'
 
 export default function MyStory() {
   return (
@@ -56,12 +57,12 @@ export default function MyStory() {
             <div className="relative text-base mx-auto max-w-prose lg:max-w-none">
               <figure>
                 <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
-                  <img
+                  <Image
                     className="rounded-lg shadow-lg object-cover object-center"
-                    src="./img/IMG_7454.jpg"
+                    src="/img/IMG_7454.jpg"
                     alt="Whitney leaning against a railing on a downtown street"
-                    width={1184}
-                    height={1376}
+                    width={862}
+                    height={1146}
                   />
                 </div>
               </figure>

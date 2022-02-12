@@ -5,6 +5,7 @@ import {
   MenuIcon,
 } from '@heroicons/react/outline'
 import { CameraIcon } from '@heroicons/react/solid'
+import Image from 'next/image'
 
 
 const navigation = [
@@ -22,10 +23,11 @@ export default function Header() {
             <div className="flex justify-start lg:w-0 lg:flex-1">
               <a href="#">
                 <span className="sr-only">Workflow</span>
-                <img
-                  className="h-8 w-auto sm:h-10"
-                  src="./img/40229991.png"
-                  alt=""
+                <Image
+                  src="/img/40229991.png"
+                  width={40}
+                  height={40}
+                  alt='James Plant'
                 />
               </a>
             </div>
@@ -67,11 +69,15 @@ export default function Header() {
             <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
               <div className="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
                 <div className="absolute inset-0">
-                  <img
-                    className="h-full w-full object-cover"
-                    src="./img/fotis-fotopoulos-SyvsTmuuZyM-unsplash.jpg"
-                    alt="People working on laptops"
-                  />
+                  <div className="relative w-full h-full">
+                    <Image
+                      src="/img/fotis-fotopoulos-SyvsTmuuZyM-unsplash.jpg"
+                      alt="Developer Setup"
+                      layout='fill'
+                      className="h-full w-full object-cover"
+                      priority
+                    />
+                  </div>
                   <div className="absolute inset-0 bg-gray-600 mix-blend-multiply" />
                 </div>
                 <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
