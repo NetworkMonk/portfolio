@@ -128,7 +128,7 @@ export default function Header() {
                     can use technology in our lives in the future.
                   </p>
                   <p className="mt-6 mx-auto text-left text-lg text-gray-200">
-                    I&apos;m currently working for <a className="">White Stores</a>, or the 036 group. Responsible for building and managing their internal development team
+                    I&apos;m currently working for <a href="https://whitestores.co.uk/" target="_blank" rel="noreferrer">White Stores</a>, or the 036 group. Responsible for building and managing their internal development team
                     to allow the company to innovate and grow as fast and effeciently as possible.
                   </p>
                 </div>
