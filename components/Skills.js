@@ -32,12 +32,12 @@ export default function Skills() {
 
           <div className="mt-8 mb-8 lg:mt-0">
             <div className="text-base max-w-prose mx-auto lg:max-w-none">
-              <p className="text-lg text-gray-500">
-                How I guage my skill set and confidence with each language and technology.
+              <p className="text-lg text-white">
+                How I gauge my skill set and confidence with each language and technology.
               </p>
             </div>
-            <div className="mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1 max-w-prose">
-              <p className="mb-3">
+            <div className="mt-5 prose prose-indigo text-white mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1 max-w-prose">
+              <p className="mb-3 text-lg">
                 Just because something isn&apos;t listed here, doesn&apos;t mean I&apos;m not interested in it, I&apos;m
                 always keen to learn something new.
               </p>

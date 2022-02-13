@@ -11,6 +11,8 @@ import Image from 'next/image'
 const navigation = [
   { name: 'My Story', href: '#my-story' },
   { name: 'Skills', href: '#skills' },
+  { name: 'Interests', href: '#interests' },
+  { name: 'Achievements', href: '#achievements' },
   { name: 'Get In Touch', href: '#get-in-touch' },
 ]
 

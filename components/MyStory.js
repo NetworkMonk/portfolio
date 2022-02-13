@@ -69,11 +69,11 @@ export default function MyStory() {
           </div>
           <div className="mt-8 lg:mt-0">
             <div className="text-base max-w-prose mx-auto lg:max-w-none">
-              <p className="text-2xl text-gray-500">
+              <p className="text-2xl text-gray-600">
                 A little about me and how I started my journey in the world of development.
               </p>
             </div>
-            <div className="mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1 max-w-prose">
+            <div className="mt-5 prose prose-indigo text-gray-600 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1 max-w-prose">
               <p className="mb-3">
                 Tapes! You remember those? Back in the early 90s my room was covered in the things. I had an Amstrad 64,
                 a hand me down from my father, it had a tape drive and a monochrome green screen.
