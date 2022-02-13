@@ -6,6 +6,8 @@ import Header from '../components/Header'
 import MyStory from '../components/MyStory'
 import Skills from '../components/Skills'
 import Footer from '../components/Footer'
+import Interests from '../components/Interests'
+import Achievements from '../components/Achievements'
 
 export default function Home() {
   return (
@@ -28,6 +30,8 @@ export default function Home() {
         <Header />
         <MyStory />
         <Skills />
+        <Interests />
+        <Achievements />
         <GetInTouch />
         <Footer />
       </main>

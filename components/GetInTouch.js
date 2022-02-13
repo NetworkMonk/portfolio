@@ -33,7 +33,7 @@ export default function GetInTouch() {
         </div>
         <div className="mx-auto text-base max-w-prose lg:max-w-none mt-8 mb-8">
           <div className="text-base">
-            <p className="text-lg text-gray-500">
+            <p className="text-lg text-gray-600">
               Feel free to get in touch with me to discuss anything at all!
             </p>
           </div>
