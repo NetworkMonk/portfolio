@@ -15,7 +15,6 @@
   }
   ```
 */
-import { CameraIcon } from '@heroicons/react/solid'
 import Skill from './Skill'
 
 export default function Skills() {
@@ -24,9 +23,9 @@ export default function Skills() {
       <div className="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
         <div className="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
           <div>
-            <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl fira-mono">
+            <h2 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl fira-mono">
               &gt; Skills
-            </h3>
+            </h2>
           </div>
         </div>
         <div className="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">
@@ -37,7 +36,7 @@ export default function Skills() {
                 How I guage my skill set and confidence with each language and technology.
               </p>
             </div>
-            <div className="mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
+            <div className="mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1 max-w-prose">
               <p className="mb-3">
                 Just because something isn&apos;t listed here, doesn&apos;t mean I&apos;m not interested in it, I&apos;m
                 always keen to learn something new.
@@ -63,9 +62,6 @@ export default function Skills() {
               <Skill title="Unity" percent="50" />
               <Skill title="C#" percent="45" />
               <Skill title="C++" percent="40" />
-
-
-
             </div>
           </div>
         </div>

@@ -15,7 +15,7 @@
   }
   ```
 */
-import { CameraIcon } from '@heroicons/react/solid'
+import Image from 'next/image'
 
 export default function MyStory() {
   return (
@@ -24,9 +24,9 @@ export default function MyStory() {
         <div className="hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen" />
         <div className="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
           <div>
-            <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl fira-mono">
+            <h2 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl fira-mono">
               &gt; My Story
-            </h3>
+            </h2>
           </div>
         </div>
         <div className="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">
@@ -56,12 +56,12 @@ export default function MyStory() {
             <div className="relative text-base mx-auto max-w-prose lg:max-w-none">
               <figure>
                 <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
-                  <img
+                  <Image
                     className="rounded-lg shadow-lg object-cover object-center"
-                    src="./img/IMG_7454.jpg"
+                    src="/img/IMG_7454.jpg"
                     alt="Whitney leaning against a railing on a downtown street"
-                    width={1184}
-                    height={1376}
+                    width={862}
+                    height={1146}
                   />
                 </div>
               </figure>
@@ -73,7 +73,7 @@ export default function MyStory() {
                 A little about me and how I started my journey in the world of development.
               </p>
             </div>
-            <div className="mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
+            <div className="mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1 max-w-prose">
               <p className="mb-3">
                 Tapes! You remember those? Back in the early 90s my room was covered in the things. I had an Amstrad 64,
                 a hand me down from my father, it had a tape drive and a monochrome green screen.
@@ -94,9 +94,9 @@ export default function MyStory() {
                 games using C++ and DirectX 7. This was the time I discovered the joys of object oriented programming.
               </p>
               <p className="mb-3">
-                My career started in IT support, a shy anxious young man who struggled to speak to strangers, ansering phones and
+                My career started in IT support, a shy anxious young man who struggled to speak to strangers, answering phones and
                 visiting sites to resolve IT issues. It was a difficult, but concious descision to improve my soft skills, how I
-                react and compose myself around people. I did make it my mission to make a career out of development and thankfully I have succeeded.
+                react and compose myself around people. I did make it my mission to make a career out of development, which thankfully I succeeded in.
               </p>
               <p className="mb-5">
                 My development career started around 7 years ago, since then I&apos;ve developed large, and small, web applications using a large
