@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Background from '../components/Background'
 import GetInTouch from '../components/GetInTouch'
 import Header from '../components/Header'
